@@ -16,13 +16,20 @@ const CircleButton = styled.div`
   height: 20px;
   border: 1px solid rgb(0, 166, 90);
   margin-right: 8px;
+  cursor: pointer;
+`;
+
+const TodoLabel = styled.p`
+  flex: 1;
+  cursor: pointer;
 `;
 
 const Todo = props => {
   return (
     <Container>
       <CircleButton />
-      <p>Todo Item</p>
+      <TodoLabel>Todo Item</TodoLabel>
+      <p>X</p>
     </Container>
   );
 };

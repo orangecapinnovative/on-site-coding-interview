@@ -12,7 +12,7 @@ You can also integrate and use any prefer tools like ESLint.
 
 ## Base Requirements
 - Each todo item has two states `active` and `completed`.
-- Each todo item label with a simple string. (Ex. Buy some beers, Play badminton)
+- Each todo item label with a simple string. (Ex. Buy some beer, Play badminton)
 - User can't add new todo item that is invalid value such as empty string.
 - When todo item is created, it have `active` state.
 - User able to see a remaining `active` todos.
@@ -23,6 +23,7 @@ You can also integrate and use any prefer tools like ESLint.
 
 ## Extra Requirements
 - User able to edit `active` todo but can't edit `completed` todo.
-- Todo item can add more attribute like `tag` to make a grouping feature.
 - Make it responsive. So the apps can be use both on mobile and desktop.
+- Grouping feature.
+- Having some unit test.
 - Anything from your imagination!
