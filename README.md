@@ -2,6 +2,15 @@
 
 For this test you will have **30 minutes** to implements a "Todo List" app
 
+## Prerequisite
+- Node.js (> 8.0.0)
+- Git (of course...)
+
+## Setup
+- Clone this project. (Or fork)
+- Install dependencies by `npm install` or `yarn`
+- Start the apps with `npm run start` or `yarn start`
+
 ## What we provide
 
 We provide some components with simple styling (using [styled-components](https://styled-components.com/)). **By the way you can still modify it.**
